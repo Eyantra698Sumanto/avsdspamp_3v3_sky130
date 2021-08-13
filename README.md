@@ -3,13 +3,13 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 # Table of Contents
 - [Opensource Tools used:](#opensource-tools-used-)
 - [Installation Instructions](#installation-instructions)
-  * [eSim Installation:](#esim-installation-)
-  * [Ngspice Installation:](#ngspice-installation-)
-  * [Skywater Pdk Installation(Ubuntu):](#skywater-pdk-installation-ubuntu--)
-  * [Magic Installation(Ubuntu):](#magic-installation-ubuntu--)
+  * [eSim Installation](#esim-installation-)
+  * [Ngspice Installation](#ngspice-installation-)
+  * [Skywater Pdk Installation(Ubuntu)](#skywater-pdk-installation-ubuntu--)
+  * [Magic Installation(Ubuntu)](#magic-installation-ubuntu--)
 - [Prelayout Simulation in eSim and Ngspice](#prelayout-simulation-in-esim-and-ngspice)
   * [Schematic:](#schematic-)
-  * [Adding Simulation parameters:](#adding-simulation-parameters-)
+  * [Adding Simulation parameters](#adding-simulation-parameters-)
   * [Adding Sky130 parameters](#adding-sky130-parameters)
   * [Simulations in Ngspice](#simulations-in-ngspice)
       - [Output Vs. Input Plot:](#output-vs-input-plot-)
@@ -19,9 +19,9 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 - [Layout design in Magic](#layout-design-in-magic)
 - [Post Layout Simulation](#post-layout-simulation)
   * [Output Vs. Input](#output-vs-input)
-  * [Frequency Response Plot:](#frequency-response-plot--1)
-  * [Output Vs.Supply Plot:](#output-vssupply-plot-)
-  * [Current Gain Vs. Output Plot:](#current-gain-vs-output-plot-)
+  * [Frequency Response Plot](#frequency-response-plot--1)
+  * [Output Vs.Supply Plot](#output-vssupply-plot-)
+  * [Current Gain Vs. Output Plot](#current-gain-vs-output-plot-)
 - [Contributor](#contributor)
 - [Acknowledgments](#acknowledgments)
 
@@ -39,15 +39,15 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 
 # Installation Instructions
 
-## eSim Installation:
+## eSim Installation
  Refer the following websites for installation of eSim :
  - https://static.fossee.in/esim/installation-files/Install_eSim_on_Windows.pdf
  - https://github.com/FOSSEE/eSim/blob/master/INSTALL
  
-## Ngspice Installation:
+## Ngspice Installation
 Ngspice gets installed alongwith eSim. If any other version ids to be installed refer: http://ngspice.sourceforge.net/download.html
 
-## Skywater Pdk Installation(Ubuntu):
+## Skywater Pdk Installation(Ubuntu)
 Open the terminal and follow these steps:
 ```
 git clone git://opencircuitdesign.com/open_pdks
@@ -56,7 +56,7 @@ cd open_pdks
 make
 sudo make install
 ```
-## Magic Installation(Ubuntu):
+## Magic Installation(Ubuntu)
 Open the terminal and follow these steps:
 ```
 git clone git://opencircuitdesign.com/magic
@@ -80,9 +80,9 @@ Add the sky130 devices and the libraries in .cir.out file
 
 ## Simulations in Ngspice
 Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
-#### Output Vs. Input Plot:
+#### Output Vs. Input Plot
 ![image](https://user-images.githubusercontent.com/58599984/129341595-c651022b-e348-40f2-9c79-d18f0bd81222.png)
-#### Frequency Response Plot:
+#### Frequency Response Plot
 ![image](https://user-images.githubusercontent.com/58599984/129341478-4a592d15-2104-48dc-961c-9352e0b7fd01.png)
 #### Output Vs.Supply Plot
 ![image](https://user-images.githubusercontent.com/58599984/129341687-98aeffb1-518b-42dd-b6ce-bce8a91a4590.png)
@@ -116,11 +116,11 @@ Run the following command:
 The simulation waveforms are as follows:
 ## Output Vs. Input
 ![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129340273-ab29acf6-76a5-4b94-ab42-199a5358779f.PNG)
-## Frequency Response Plot:
+## Frequency Response Plot
 ![frequency response](https://user-images.githubusercontent.com/58599984/129340942-1f36ab3f-cd1b-4ed4-a36b-bee9fd49fc4e.PNG)
-## Output Vs.Supply Plot:
+## Output Vs.Supply Plot
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129341127-6f559d94-f1e1-414b-b1ce-2f98c273af7e.PNG)
-## Current Gain Vs. Output Plot:
+## Current Gain Vs. Output Plot
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129341017-c50d77df-5ea1-4ca0-978f-01a8b12fa353.PNG)
 
 # Contributor
