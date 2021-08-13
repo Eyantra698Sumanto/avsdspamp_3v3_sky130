@@ -64,6 +64,7 @@ Copy and paste the sky130A.tech file and execute following command in terminal:
 magic -T sky130A.tech
 ```
 Layout:
+```
 ![spamplayout](https://user-images.githubusercontent.com/58599984/129332680-df117d8c-6ee7-43dc-9068-7c2a33f26044.PNG)
 
 After designing the layout run following command in tkcon terminal:
