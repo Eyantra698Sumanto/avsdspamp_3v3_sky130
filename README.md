@@ -1,5 +1,6 @@
 # avsdspamp_3v3_sky130
 This project focuses on design of a Sziklai Pair Amplifier using Google Skywater (sky130) Technology node with operating voltage of 1.8V and 3.3V. The project is build using Open Source Tools like Magic, Sky130PDK and eSim.
+# Table of Contents
 - [Opensource Tools used:](#opensource-tools-used-)
 - [Installation Instructions](#installation-instructions)
   * [eSim Installation:](#esim-installation-)
@@ -22,7 +23,7 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
   * [Output Vs.Supply Plot:](#output-vssupply-plot-)
   * [Current Gain Vs. Output Plot:](#current-gain-vs-output-plot-)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 # Opensource Tools used:
