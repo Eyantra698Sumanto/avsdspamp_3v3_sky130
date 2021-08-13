@@ -1,6 +1,29 @@
 # avsdspamp_3v3_sky130
 This project focuses on design of a Sziklai Pair Amplifier using Google Skywater (sky130) Technology node with operating voltage of 1.8V and 3.3V. The project is build using Open Source Tools like Magic, Sky130PDK and eSim.
-<!-- toc -->
+- [Opensource Tools used:](#opensource-tools-used-)
+- [Installation Instructions](#installation-instructions)
+  * [eSim Installation:](#esim-installation-)
+  * [Ngspice Installation:](#ngspice-installation-)
+  * [Skywater Pdk Installation(Ubuntu):](#skywater-pdk-installation-ubuntu--)
+  * [Magic Installation(Ubuntu):](#magic-installation-ubuntu--)
+- [Prelayout Simulation in eSim and Ngspice](#prelayout-simulation-in-esim-and-ngspice)
+  * [Schematic:](#schematic-)
+  * [Adding Simulation parameters:](#adding-simulation-parameters-)
+  * [Adding Sky130 parameters](#adding-sky130-parameters)
+  * [Simulations in Ngspice](#simulations-in-ngspice)
+      - [Output Vs. Input Plot:](#output-vs-input-plot-)
+      - [Frequency Response Plot:](#frequency-response-plot-)
+      - [Output Vs.Supply Plot](#output-vssupply-plot)
+      - [Current Gain Vs. Output](#current-gain-vs-output)
+- [Layout design in Magic](#layout-design-in-magic)
+- [Post Layout Simulation](#post-layout-simulation)
+  * [Output Vs. Input](#output-vs-input)
+  * [Frequency Response Plot:](#frequency-response-plot--1)
+  * [Output Vs.Supply Plot:](#output-vssupply-plot-)
+  * [Current Gain Vs. Output Plot:](#current-gain-vs-output-plot-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # Opensource Tools used:
 1. eSim: eSim (previously known as Oscad / FreeEDA) is a free/libre and open source EDA tool for circuit design, simulation, analysis and PCB design developed by FOSSEE, IIT Bombay. It is an integrated tool    built using free/libre and open source software such as KiCad, Ngspice and GHDL. eSim is released under GPL. eSim offers similar capabilities and ease of use as any equivalent proprietary software for schematic creation, simulation and PCB design, without having to pay a huge amount of money to procure licenses. Hence it can be an affordable alternative to educational institutions and SMEs. It can serve as an alternative to commercially available/licensed software tools like OrCAD, Xpedition and HSPICE. For more info refer: https://esim.fossee.in/home
