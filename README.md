@@ -12,5 +12,5 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 
 # Installation Instructions
 
-- # eSim installation
-- Refer the following websites for installation of eSim https://static.fossee.in/esim/installation-files/Install_eSim_on_Windows.pdf
+- eSim installation
+ Refer the following websites for installation of eSim https://static.fossee.in/esim/installation-files/Install_eSim_on_Windows.pdf
