@@ -51,8 +51,11 @@ https://static.fossee.in/esim/manuals/eSim_Manual_2020_August.pdf
 ## Adding Sky130 parameters
 Add the sky130 devices and the library in .cir.out file
 
-## Simulations
+## Simulations in Ngspice
 ![input-output_plot](https://user-images.githubusercontent.com/58599984/129332107-9435e758-0385-41d4-bd6b-f4d35075cb35.png)
 ![frequency response](https://user-images.githubusercontent.com/58599984/129332147-d9cbb354-3b96-412e-b862-f02be457fc6c.png)
+![output vs supply](https://user-images.githubusercontent.com/58599984/129332330-47d429b8-8518-4993-9fd2-36a5cee7bcb4.png)
+![current gain vs output](https://user-images.githubusercontent.com/58599984/129332293-a3cb5dc9-5de1-4f3c-822d-fd3cca2c3879.png)
+
 
 
