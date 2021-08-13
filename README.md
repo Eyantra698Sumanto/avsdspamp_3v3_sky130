@@ -12,15 +12,15 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 
 # Installation Instructions
 
-## eSim Installation:
+#### eSim Installation:
  Refer the following websites for installation of eSim :
  - https://static.fossee.in/esim/installation-files/Install_eSim_on_Windows.pdf
  - https://github.com/FOSSEE/eSim/blob/master/INSTALL
  
-## Ngspice Installation:
+#### Ngspice Installation:
 Ngspice gets installed alongwith eSim. If any other version ids to be installed refer: http://ngspice.sourceforge.net/download.html
 
-## Skywater Pdk Installation(Ubuntu)
+#### Skywater Pdk Installation(Ubuntu)
 Open the terminal and follow these steps:
 ```
 git clone git://opencircuitdesign.com/open_pdks
@@ -29,7 +29,7 @@ cd open_pdks
 make
 sudo make install
 ```
-## Magic Installation(Ubuntu)
+#### Magic Installation(Ubuntu)
 Open the terminal and follow these steps:
 ```
 git clone git://opencircuitdesign.com/magic
