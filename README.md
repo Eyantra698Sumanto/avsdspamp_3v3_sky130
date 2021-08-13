@@ -22,6 +22,8 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
   * [Frequency Response Plot:](#frequency-response-plot--1)
   * [Output Vs.Supply Plot:](#output-vssupply-plot-)
   * [Current Gain Vs. Output Plot:](#current-gain-vs-output-plot-)
+- [Contributor](#contributor)
+- [Acknowledgments](#acknowledgments)
 
 
 
