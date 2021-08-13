@@ -122,7 +122,7 @@ The simulation waveforms are as follows:
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129341017-c50d77df-5ea1-4ca0-978f-01a8b12fa353.PNG)
 
 # Contributor
-Sumanto Kar, Research Assistant, IIT Bombay</br>
+Sumanto Kar
 Contact: jeetsumanto123@gmail.com</br>
 
 Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
