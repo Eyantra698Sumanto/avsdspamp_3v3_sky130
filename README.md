@@ -21,6 +21,6 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 Ngspice gets installed alongwith eSim. If any other version ids to be installed refer: http://ngspice.sourceforge.net/download.html
 
 ## Skywater Pdk Installation(Ubuntu)
-'''git clone git://opencircuitdesign.com/open_pdks
+```git clone git://opencircuitdesign.com/open_pdks
 cd open_pdks
-git checkout open_pdks-1.0'''
+git checkout open_pdks-1.0```
