@@ -38,7 +38,7 @@ sudo ./configure
 sudo make
 sudo make install
 ```
-# Prelayout Simulation in eSim
+# Prelayout Simulation in eSim and Ngspice
 Refer following manual to know how to operate eSim:
 https://static.fossee.in/esim/manuals/eSim_Manual_2020_August.pdf
 
@@ -49,12 +49,17 @@ https://static.fossee.in/esim/manuals/eSim_Manual_2020_August.pdf
 ![image](https://user-images.githubusercontent.com/58599984/129331747-93d715c6-b459-4159-aa33-c40ed329a2fa.png)
 
 ## Adding Sky130 parameters
-Add the sky130 devices and the library in .cir.out file
+Add the sky130 devices and the libraries in .cir.out file
 
 ## Simulations in Ngspice
+Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
+#### Output Vs. Input Plot:
 ![input-output_plot](https://user-images.githubusercontent.com/58599984/129332107-9435e758-0385-41d4-bd6b-f4d35075cb35.png)
+#### Frequency Response Plot:
 ![frequency response](https://user-images.githubusercontent.com/58599984/129332147-d9cbb354-3b96-412e-b862-f02be457fc6c.png)
+#### Output Vs.Supply Plot
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129332330-47d429b8-8518-4993-9fd2-36a5cee7bcb4.png)
+#### Current Gain Vs. Output
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129332293-a3cb5dc9-5de1-4f3c-822d-fd3cca2c3879.png)
 
 # Layout design in Magic
@@ -64,8 +69,32 @@ Copy and paste the sky130A.tech file and execute following command in terminal:
 magic -T sky130A.tech
 ```
 Layout:<br />
+
 ![spamplayout](https://user-images.githubusercontent.com/58599984/129332680-df117d8c-6ee7-43dc-9068-7c2a33f26044.PNG)
+
+(Note: Take care of the DRC errors while designing layout)
 
 After designing the layout run following command in tkcon terminal:
 
 ![image](https://user-images.githubusercontent.com/58599984/129332999-55c4ed9f-474e-463f-b694-d3d45ea20841.png)
+
+The spice code will get generated.
+
+# Post Layout Simulation
+Save the spice code as .cir file and add the simulation parameters and sky130 libraries.</br>
+Run the following command:
+
+![image](https://user-images.githubusercontent.com/58599984/129340189-c6730900-00c4-4efb-a987-c0902d854456.png)
+
+The simulation waveforms are as follows:
+## Output Vs. Input
+![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129340273-ab29acf6-76a5-4b94-ab42-199a5358779f.PNG)
+## Frequency Response Plot:
+![frequency response](https://user-images.githubusercontent.com/58599984/129340942-1f36ab3f-cd1b-4ed4-a36b-bee9fd49fc4e.PNG)
+## Output Vs.Supply Plot
+![output vs supply](https://user-images.githubusercontent.com/58599984/129341127-6f559d94-f1e1-414b-b1ce-2f98c273af7e.PNG)
+## Current Gain Vs. Output
+![current gain vs output](https://user-images.githubusercontent.com/58599984/129341017-c50d77df-5ea1-4ca0-978f-01a8b12fa353.PNG)
+
+
+
