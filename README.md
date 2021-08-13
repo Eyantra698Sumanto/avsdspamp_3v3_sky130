@@ -54,13 +54,13 @@ Add the sky130 devices and the libraries in .cir.out file
 ## Simulations in Ngspice
 Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
 #### Output Vs. Input Plot:
-![input-output_plot](https://user-images.githubusercontent.com/58599984/129332107-9435e758-0385-41d4-bd6b-f4d35075cb35.png)
+![image](https://user-images.githubusercontent.com/58599984/129341595-c651022b-e348-40f2-9c79-d18f0bd81222.png)
 #### Frequency Response Plot:
-![frequency response](https://user-images.githubusercontent.com/58599984/129332147-d9cbb354-3b96-412e-b862-f02be457fc6c.png)
+![image](https://user-images.githubusercontent.com/58599984/129341478-4a592d15-2104-48dc-961c-9352e0b7fd01.png)
 #### Output Vs.Supply Plot
-![output vs supply](https://user-images.githubusercontent.com/58599984/129332330-47d429b8-8518-4993-9fd2-36a5cee7bcb4.png)
+![image](https://user-images.githubusercontent.com/58599984/129341687-98aeffb1-518b-42dd-b6ce-bce8a91a4590.png)
 #### Current Gain Vs. Output
-![current gain vs output](https://user-images.githubusercontent.com/58599984/129332293-a3cb5dc9-5de1-4f3c-822d-fd3cca2c3879.png)
+![image](https://user-images.githubusercontent.com/58599984/129341346-f39001ab-e3de-4f7d-94dd-6a4f87938570.png)
 
 # Layout design in Magic
 
