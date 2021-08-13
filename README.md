@@ -12,6 +12,10 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 
 # Installation Instructions
 
-## eSim installation:
+## eSim Installation:
  Refer the following websites for installation of eSim :
- - -https://static.fossee.in/esim/installation-files/Install_eSim_on_Windows.pdf
+ - https://static.fossee.in/esim/installation-files/Install_eSim_on_Windows.pdf
+ - https://github.com/FOSSEE/eSim/blob/master/INSTALL
+ 
+## Ngspice Installation:
+Ngspice gets installed alongwith eSim. If any other version ids to be installed refer: http://ngspice.sourceforge.net/download.html
