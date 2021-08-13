@@ -1,0 +1,32 @@
+* d:\fossee\esim-workspace\spamp\spamp.cir
+
+.include NMOS-5um.lib
+.include PMOS-5um.lib
+m2 net-_c1-pad2_ net-_cds1-pad1_ net-_c2-pad1_ net-_c2-pad1_ mos_n W=100u L=100u M=1
+m1 net-_cds1-pad1_ in net-_cds1-pad2_ net-_cds1-pad2_ mos_p W=100u L=100u M=1
+r4  net-_cds1-pad2_ net-_c1-pad2_ 6.7meg
+r5  net-_c1-pad2_ net-_r2-pad2_ 10meg
+r3  gnd in 100k
+v2 net-_r2-pad2_ gnd  dc 1.8
+r7  gnd vout 100meg
+r2  in net-_r2-pad2_ 100k
+c1  vout net-_c1-pad2_ 100u
+cds1  net-_cds1-pad1_ net-_cds1-pad2_ 0.1u
+cgs1  net-_cds1-pad1_ in 0.1u
+cgd1  net-_cds1-pad2_ in 0.1u
+c2  net-_c2-pad1_ gnd 100u
+r6  gnd net-_c2-pad1_ 1k
+* u1  vout plot_v1
+v1  in gnd sine(0 10m 100 0 0)
+* u2  in plot_v1
+.op
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(vout)
+plot v(in)
+.endc
+.end

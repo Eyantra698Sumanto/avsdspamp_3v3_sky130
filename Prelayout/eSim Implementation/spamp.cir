@@ -1,0 +1,27 @@
+* D:\FOSSEE\eSim-Workspace\spamp\spamp.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 08/06/21 11:31:36
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+M2  Net-_C1-Pad2_ Net-_Cds1-Pad1_ Net-_C2-Pad1_ Net-_C2-Pad1_ sky130_fd_pr__pfet_01v8		
+M1  Net-_Cds1-Pad1_ in Net-_Cds1-Pad2_ Net-_Cds1-Pad2_ sky130_fd_pr__pfet_01v8		
+R4  Net-_Cds1-Pad2_ Net-_C1-Pad2_ 6.7Meg		
+R5  Net-_C1-Pad2_ Net-_R2-Pad2_ 10Meg		
+R3  GND in 100k		
+v2  Net-_R2-Pad2_ GND DC		
+R7  GND Vout 100Meg		
+R2  in Net-_R2-Pad2_ 100k		
+C1  Vout Net-_C1-Pad2_ 100u		
+Cds1  Net-_Cds1-Pad1_ Net-_Cds1-Pad2_ 0.1u		
+Cgs1  Net-_Cds1-Pad1_ in 0.1u		
+Cgd1  Net-_Cds1-Pad2_ in 0.1u		
+C2  Net-_C2-Pad1_ GND 100u		
+R6  GND Net-_C2-Pad1_ 1k		
+U1  Vout plot_v1		
+v1  in GND sine		
+U2  in plot_v1		
+
+.end
