@@ -57,5 +57,15 @@ Add the sky130 devices and the library in .cir.out file
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129332330-47d429b8-8518-4993-9fd2-36a5cee7bcb4.png)
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129332293-a3cb5dc9-5de1-4f3c-822d-fd3cca2c3879.png)
 
+# Layout design in Magic
 
+Copy and paste the sky130A.tech file and execute following command in terminal:
+```
+magic -T sky130A.tech
+```
+Layout:
+![spamplayout](https://user-images.githubusercontent.com/58599984/129332680-df117d8c-6ee7-43dc-9068-7c2a33f26044.PNG)
 
+After designing the layout run following command in tkcon terminal:
+
+![image](https://user-images.githubusercontent.com/58599984/129332999-55c4ed9f-474e-463f-b694-d3d45ea20841.png)
