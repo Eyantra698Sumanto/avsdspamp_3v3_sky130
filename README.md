@@ -91,9 +91,9 @@ The simulation waveforms are as follows:
 ![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129340273-ab29acf6-76a5-4b94-ab42-199a5358779f.PNG)
 ## Frequency Response Plot:
 ![frequency response](https://user-images.githubusercontent.com/58599984/129340942-1f36ab3f-cd1b-4ed4-a36b-bee9fd49fc4e.PNG)
-## Output Vs.Supply Plot
+## Output Vs.Supply Plot:
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129341127-6f559d94-f1e1-414b-b1ce-2f98c273af7e.PNG)
-## Current Gain Vs. Output
+## Current Gain Vs. Output Plot:
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129341017-c50d77df-5ea1-4ca0-978f-01a8b12fa353.PNG)
 
 
