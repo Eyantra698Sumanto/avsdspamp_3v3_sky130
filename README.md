@@ -25,8 +25,8 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
   * [Output Vs.Supply Plot](#output-vssupply-plot-1)
   * [Current Gain Vs. Output Plot](#current-gain-vs-output-plot)
 - [Executing the Simulations](#executing-the-simulations)
-  * [To execute prelayout simulations:](#to-execute-prelayout-simulations-)
-  * [To execute postlayout simulations:](#to-execute-postlayout-simulations-)
+  * [To execute prelayout simulations](#to-execute-prelayout-simulations-)
+  * [To execute postlayout simulations](#to-execute-postlayout-simulations-)
 - [Differences between Prelayout and Postlayout and Why?](#differences-between-prelayout-and-postlayout-and-why-)
 - [Future Scope](#future-scope)
 - [Contributor](#contributor)
@@ -140,7 +140,7 @@ The simulation waveforms are as follows:
 $ sudo apt install -y git
 $ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
 ```
-## To execute prelayout simulations:
+## To execute prelayout simulations
 Change to the prelayout directory:
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
@@ -148,7 +148,7 @@ $ngspice spamp.cir
 ```
 Uncomment whichever analysis required.
 
-## To execute postlayout simulations:
+## To execute postlayout simulations
 Change to the postlayout directory:
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations/
