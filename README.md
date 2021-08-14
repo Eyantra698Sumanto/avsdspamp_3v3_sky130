@@ -2,6 +2,8 @@
 This project focuses on design of a Sziklai Pair Amplifier using Google Skywater (sky130) Technology node with operating voltage of 1.8V and 3.3V. The project is build using Open Source Tools like Magic, Sky130PDK and eSim.
 # Table of Contents
 - [Opensource Tools used:](#opensource-tools-used-)
+- [Performance Specifications](#performance-specifications)
+- [Block Diagram](#block-diagram)
 - [Installation Instructions](#installation-instructions)
   * [eSim Installation](#esim-installation)
   * [Ngspice Installation](#ngspice-installation)
@@ -22,6 +24,11 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
   * [Frequency Response Plot](#frequency-response-plot-1)
   * [Output Vs.Supply Plot](#output-vssupply-plot-1)
   * [Current Gain Vs. Output Plot](#current-gain-vs-output-plot)
+- [Executing the Simulations](#executing-the-simulations)
+  * [To execute prelayout simulations:](#to-execute-prelayout-simulations-)
+  * [To execute postlayout simulations:](#to-execute-postlayout-simulations-)
+- [Differences between Prelayout and Postlayout and Why?](#differences-between-prelayout-and-postlayout-and-why-)
+- [Future Scope](#future-scope)
 - [Contributor](#contributor)
 - [Acknowledgments](#acknowledgments)
 
