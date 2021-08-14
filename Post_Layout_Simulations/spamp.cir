@@ -1,5 +1,5 @@
 * SPICE3 file created from spamp.ext - technology: sky130A
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../../libs/sky130_fd_pr/models/sky130.lib.spice" tt
 .option scale=10000u
 
 X0 a_27_n117# out SUB sky130_fd_pr__res_generic_nd w=34 l=36
