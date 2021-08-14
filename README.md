@@ -38,6 +38,8 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 4. Magic: Magic is a venerable VLSI layout tool, written in the 1980's at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology. However, it is the well thought-out core algorithms which lend to magic the greatest part of its popularity. Magic is widely cited as being the easiest tool to use for circuit layout, even for people who ultimately rely on commercial tools for their product design flow. For more info refer: http://opencircuitdesign.com/magic/
 # Performance Specifications
 ![image](https://user-images.githubusercontent.com/58599984/129461331-68a6f874-a4e8-4cdd-95be-a9c0a43c6c28.png)
+# Block Diagram
+![image](https://user-images.githubusercontent.com/58599984/129461658-8931d4f9-211d-46d2-85c3-16e1fed6f850.png)
 
 # Installation Instructions
 
@@ -124,6 +126,33 @@ The simulation waveforms are as follows:
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129341127-6f559d94-f1e1-414b-b1ce-2f98c273af7e.PNG)
 ## Current Gain Vs. Output Plot
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129341017-c50d77df-5ea1-4ca0-978f-01a8b12fa353.PNG)
+
+# Executing the Simulations
+ Clone this repository using the commands:
+```
+$ sudo apt install -y git
+$ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
+```
+## To execute prelayout simulations:
+Change to the prelayout directory:
+```
+$cd avsdspamp_3v3_sky130/Prelayout/simulations
+$ngspice spamp.cir
+```
+Uncomment whichever analysis required.
+
+## To execute postlayout simulations:
+Change to the postlayout directory:
+```
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/
+$ngspice spamp.cir
+```
+Uncomment whichever analysis required.
+# Differences between Prelayout and Postlayout and Why?
+1. The change in amplitude is due to the extra capacitances, resistances, etc added dure to wire, etc.
+2. The change in frequency response is due to the capacitances due to substrate, wire, etc.
+# Future Scope
+More accurate responses can be achieved.
 
 # Contributor
 Sumanto Kar</br>
