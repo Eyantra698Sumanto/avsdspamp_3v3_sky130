@@ -39,7 +39,7 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 # Performance Specifications
 ![image](https://user-images.githubusercontent.com/58599984/129461331-68a6f874-a4e8-4cdd-95be-a9c0a43c6c28.png)
 # Block Diagram
-![image](https://user-images.githubusercontent.com/58599984/129461658-8931d4f9-211d-46d2-85c3-16e1fed6f850.png)
+![image](https://user-images.githubusercontent.com/58599984/129461713-bb5363ce-ae54-424c-925a-35917d350eec.png)
 
 # Installation Instructions
 
