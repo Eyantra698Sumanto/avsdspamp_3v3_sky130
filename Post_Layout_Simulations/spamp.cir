@@ -1,5 +1,4 @@
 * SPICE3 file created from spamp.ext - technology: sky130A
-* RUN USING NGSPICE 34
 .lib "sky130_fd_pr/models/sky130.lib.spice" tt
 .option scale=10000u
 
@@ -13,8 +12,9 @@ C0 vdd SUB 4.11fF
 c1 in a_27_n117# 1u
 c2 in a_n83_n117# 1u
 c3 a_27_n117# in 1u
-
-*v2 vdd gnd  dc 0.001; 				Supply for Transient, AC analysis
+c4 out Vout 100u
+R1 Vout 0 1000Meg
+v2 vdd gnd  dc 1.8; 				Supply for Transient, AC analysis
 *v2 vdd gnd 0 pwl (0 0 100m 3); 		Variation of supply analysis
 * u1  out plot_v1;
  v1  in gnd sine(0 10m 100 0 0);		for Transient analysis
@@ -30,7 +30,7 @@ print allv > plot_data_v.txt;
 print alli > plot_data_i.txt;
 *ac dec 100 1 100Meg;				AC analysis	
 *plot vdb(out)/vdb(in);			AC analysis
-plot v(out) v(in);				Transient Analysis
+plot v(vout) v(in);				Transient Analysis
 *plot v(out) vs v(vdd);			Variation of supply analysis
 *plot  Vo#branch vs V2#branch;			Current Gain Vs Collector Current
 
