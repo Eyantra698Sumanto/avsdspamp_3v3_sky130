@@ -156,7 +156,7 @@ $ngspice spamp.cir
 ```
 Uncomment whichever analysis required.
 # Differences between Prelayout and Postlayout and Why?
-1. The change in amplitude is due to the extra capacitances, resistances, etc added dure to wire, etc.
+1. The change in amplitude is due to the extra capacitances, resistances, etc added due to wire, etc.
 2. The change in frequency response is due to the capacitances due to substrate, wire, etc.
 # Future Scope
 More accurate responses can be achieved.
