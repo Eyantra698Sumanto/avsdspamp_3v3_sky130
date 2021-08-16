@@ -173,10 +173,11 @@ $ngspice spamp_current.cir
 
 
 # Differences between Prelayout and Postlayout and Why?
-1. The change in amplitude is due to the extra capacitances, resistances, etc added due to wire, etc.
-2. The change in frequency response is due to the capacitances due to substrate, wire, etc.
+1. There is a fall in the gain and changes in other plots as well of postlayout simulation due to various reasons like very high resistances in order of MegaOhms and GigaOhms is difficult to achieve as the length of the resistor is very high for these ranges.
+2. There is a change in frequency response  as high value of capacitance of order of micro and milli farad is difficult to achieve as the size increases. There are various other reasons like substrate capacitance and various other stray capacitances.
+
 # Future Scope
-More accurate responses can be achieved.
+More accurate responses can be achieved if the above drawbacks can be considered.
 
 # Contributor
 Sumanto Kar</br>
