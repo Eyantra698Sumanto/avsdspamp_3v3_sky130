@@ -147,13 +147,13 @@ Save the spice code as .cir file and add the simulation parameters and sky130 li
 The simulation waveforms are as follows:
 ## Output Vs. Input
 ```
-$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/
 $ngspice spamp_tran.cir
 ```
 ![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129573537-8856f582-f0d5-4b7b-8e0b-c4343ee0f1a3.PNG)
 ## Frequency Response Plot
 ```
-$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/
 $ngspice spamp_ac.cir
 ```
 ![frequency response](https://user-images.githubusercontent.com/58599984/129573572-36b7d75c-da73-4a3a-b7ba-f1e22e4d8858.PNG)
@@ -165,7 +165,7 @@ $ngspice spamp_supplyana.cir
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129573604-6fd3df2b-f6e0-431b-8828-87e0958f5e75.PNG)
 ## Current Gain Vs. Output Plot
 ```
-$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/
 $ngspice spamp_current.cir
 ```
 ![current gain vs output](https://user-images.githubusercontent.com/58599984/129573451-5e2de215-94d5-4e3c-8ad3-052ffaac67da.PNG)
