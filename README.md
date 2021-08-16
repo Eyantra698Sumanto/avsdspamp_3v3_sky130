@@ -12,7 +12,7 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
   * [Magic Installation(Ubuntu)](#magic-installation-ubuntu-)
 - [Prelayout Simulation in eSim and Ngspice](#prelayout-simulation-in-esim-and-ngspice)
   * [Schematic:](#schematic-)
-  * [Adding Simulation parameters:](#adding-simulation-parameters-)
+  * [Adding Simulation parameters](#adding-simulation-parameters-)
   * [Adding Sky130 parameters](#adding-sky130-parameters)
   * [Simulations in Ngspice](#simulations-in-ngspice)
       - [Output Vs. Input Plot](#output-vs-input-plot)
@@ -87,7 +87,7 @@ https://static.fossee.in/esim/manuals/eSim_Manual_2020_August.pdf
 ## Schematic:
 ![image](https://user-images.githubusercontent.com/58599984/129329373-0a1d559d-ea69-4e7b-a3be-fd6a4a94b39e.png)
 
-## Adding Simulation parameters:
+## Adding Simulation parameters
 ![image](https://user-images.githubusercontent.com/58599984/129331747-93d715c6-b459-4159-aa33-c40ed329a2fa.png)
 
 ## Adding Sky130 parameters
