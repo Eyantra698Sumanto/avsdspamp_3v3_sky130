@@ -1,0 +1,27 @@
+* c:\users\sumanto\esim-workspace\spamp\spamp.cir
+* RUN USING NGSPICE 34
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+xm2 Vc net-_cds1-pad1_ net-_c2-pad1_ net-_c2-pad1_ sky130_fd_pr__nfet_01v8  W=100 L=100;
+xm1 net-_cds1-pad1_ vin net-_cds1-pad2_ net-_cds1-pad2_ sky130_fd_pr__pfet_01v8  W=100 L=100; 
+r4  net-_cds1-pad2_ Vc 6.7meg;
+r5  Vc vdd 10meg;
+r3  gnd vin 100k;			
+v2 vdd gnd  dc 1.8; 				Supply for Transient, AC analysis
+r7  gnd vout 100meg;
+r2  vin vdd 100k;
+c1  vout Vc 100u;
+cds1  net-_cds1-pad1_ net-_cds1-pad2_ 0.1u;
+cgs1  net-_cds1-pad1_ vin 0.1u;
+cgd1  net-_cds1-pad2_ vin 0.1u;
+c2  net-_c2-pad1_ gnd 100u;
+r6  gnd net-_c2-pad1_ 1k;
+v1  vin gnd sine(0 10m 100 0 0);		for Transient analysis
+.tran 10e-06 100e-03 0e-03;			for Transient analysis, supply variation analysis
+*.temp 50;
+.control;
+run;
+print allv > plot_data_v.txt;
+print alli > plot_data_i.txt;
+plot v(vout) v(vin);				Transient Analysis
+.endc
+.end
