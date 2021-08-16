@@ -1,6 +1,6 @@
 * SPICE3 file created from spamp.ext - technology: sky130A
 * RUN USING NGSPICE 35
-.lib "../sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../libs/sky130_fd_pr/models/sky130.lib.spice" tt
 .option scale=10000u
 
 *X0 vout vdd SUB sky130_fd_pr__res_xhigh_po w=35 l=4812
