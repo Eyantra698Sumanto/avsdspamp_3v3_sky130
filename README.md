@@ -178,7 +178,7 @@ $ngspice spamp_current.cir
 2. There is a change in frequency response  as high value of capacitance of order of micro and milli farad is difficult to achieve as the size increases. There are various other reasons like substrate capacitance and various other stray capacitances.
 
 # Future Scope
-More accurate responses can be achieved if the above drawbacks can be considered.
+More accurate responses can be achieved if the above drawbacks can be considered. Any other material for the layout of resistors and capacitors can also be used for better results.
 
 # Contributor
 Sumanto Kar</br>
