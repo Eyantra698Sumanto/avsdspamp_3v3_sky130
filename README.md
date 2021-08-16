@@ -99,24 +99,28 @@ Add the sky130 devices and the libraries in .cir.out file
 Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
 
 #### Output Vs. Input Plot
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_tran.cir
 ```
 ![image](https://user-images.githubusercontent.com/58599984/129341595-c651022b-e348-40f2-9c79-d18f0bd81222.png)
 #### Frequency Response Plot
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_ac.cir
 ```
 ![image](https://user-images.githubusercontent.com/58599984/129341478-4a592d15-2104-48dc-961c-9352e0b7fd01.png)
 #### Output Vs.Supply Plot
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_supplyana.cir
 ```
 ![image](https://user-images.githubusercontent.com/58599984/129341687-98aeffb1-518b-42dd-b6ce-bce8a91a4590.png)
 #### Current Gain Vs. Output
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_current.cir
@@ -147,24 +151,28 @@ Save the spice code as .cir file and add the simulation parameters and sky130 li
 
 The simulation waveforms are as follows:
 ## Output Vs. Input
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_tran.cir
 ```
 ![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129573537-8856f582-f0d5-4b7b-8e0b-c4343ee0f1a3.PNG)
 ## Frequency Response Plot
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_ac.cir
 ```
 ![frequency response](https://user-images.githubusercontent.com/58599984/129573572-36b7d75c-da73-4a3a-b7ba-f1e22e4d8858.PNG)
 ## Output Vs.Supply Plot
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_supplyana.cir
 ```
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129573604-6fd3df2b-f6e0-431b-8828-87e0958f5e75.PNG)
 ## Current Gain Vs. Output Plot
+Run the following commands in the terminal:
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_current.cir
@@ -175,7 +183,8 @@ $ngspice spamp_current.cir
 
 # Differences between Prelayout and Postlayout and Why?
 1. There is a fall in the gain and changes in other plots as well of postlayout simulation due to various reasons like very high resistances in order of MegaOhms and GigaOhms is difficult to achieve as the length of the resistor is very high for these ranges.
-2. There is a change in frequency response  as high value of capacitance of order of micro and milli farad is difficult to achieve as the size increases. There are various other reasons like substrate capacitance and various other stray capacitances.
+2. There is a change in frequency response  as high value of capacitance of order of micro and milli Farad is difficult to achieve as the size increases. There are various other reasons like substrate capacitance and various other stray capacitances.
+3. Also at high values of resistors and capacitors, accurately calculating the sizes becomes a important facors. Slight variation results in errors.
 
 # Future Scope
 More accurate responses can be achieved if the above drawbacks can be considered. Any other material for the layout of resistors and capacitors can also be used for better results.
