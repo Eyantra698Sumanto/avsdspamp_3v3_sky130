@@ -131,7 +131,8 @@ magic -T sky130A.tech
 ```
 Layout:<br />
 
-![spamplayout](https://user-images.githubusercontent.com/58599984/129332680-df117d8c-6ee7-43dc-9068-7c2a33f26044.PNG)
+![spamplayout](https://user-images.githubusercontent.com/58599984/129605210-0f8d863e-2740-4376-a675-8a4d60a56a17.PNG)
+
 
 (Note: Take care of the DRC errors while designing layout)
 
