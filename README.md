@@ -91,13 +91,35 @@ Add the sky130 devices and the libraries in .cir.out file
 
 ## Simulations in Ngspice
 Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
+#### Executing the Simulations
+ Clone this repository using the commands:
+```
+$ sudo apt install -y git
+$ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
+```
 #### Output Vs. Input Plot
+```
+$cd avsdspamp_3v3_sky130/Prelayout/simulations
+$ngspice spamp_tran.cir
+```
 ![image](https://user-images.githubusercontent.com/58599984/129341595-c651022b-e348-40f2-9c79-d18f0bd81222.png)
 #### Frequency Response Plot
+```
+$cd avsdspamp_3v3_sky130/Prelayout/simulations
+$ngspice spamp_ac.cir
+```
 ![image](https://user-images.githubusercontent.com/58599984/129341478-4a592d15-2104-48dc-961c-9352e0b7fd01.png)
 #### Output Vs.Supply Plot
+```
+$cd avsdspamp_3v3_sky130/Prelayout/simulations
+$ngspice spamp_supplyana.cir
+```
 ![image](https://user-images.githubusercontent.com/58599984/129341687-98aeffb1-518b-42dd-b6ce-bce8a91a4590.png)
 #### Current Gain Vs. Output
+```
+$cd avsdspamp_3v3_sky130/Prelayout/simulations
+$ngspice spamp_current.cir
+```
 ![image](https://user-images.githubusercontent.com/58599984/129341346-f39001ab-e3de-4f7d-94dd-6a4f87938570.png)
 
 # Layout design in Magic
@@ -126,35 +148,32 @@ Run the following command:
 
 The simulation waveforms are as follows:
 ## Output Vs. Input
-![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129340273-ab29acf6-76a5-4b94-ab42-199a5358779f.PNG)
+```
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$ngspice spamp_tran.cir
+```
+![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129573537-8856f582-f0d5-4b7b-8e0b-c4343ee0f1a3.PNG)
 ## Frequency Response Plot
-![frequency response](https://user-images.githubusercontent.com/58599984/129340942-1f36ab3f-cd1b-4ed4-a36b-bee9fd49fc4e.PNG)
+```
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$ngspice spamp_ac.cir
+```
+![frequency response](https://user-images.githubusercontent.com/58599984/129573572-36b7d75c-da73-4a3a-b7ba-f1e22e4d8858.PNG)
 ## Output Vs.Supply Plot
-![output vs supply](https://user-images.githubusercontent.com/58599984/129341127-6f559d94-f1e1-414b-b1ce-2f98c273af7e.PNG)
+```
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$ngspice spamp_supplyana.cir
+```
+![output vs supply](https://user-images.githubusercontent.com/58599984/129573604-6fd3df2b-f6e0-431b-8828-87e0958f5e75.PNG)
 ## Current Gain Vs. Output Plot
-![current gain vs output](https://user-images.githubusercontent.com/58599984/129341017-c50d77df-5ea1-4ca0-978f-01a8b12fa353.PNG)
+```
+$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/simulations
+$ngspice spamp_current.cir
+```
+![current gain vs output](https://user-images.githubusercontent.com/58599984/129573451-5e2de215-94d5-4e3c-8ad3-052ffaac67da.PNG)
 
-# Executing the Simulations
- Clone this repository using the commands:
-```
-$ sudo apt install -y git
-$ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
-```
-## To execute prelayout simulations
-Change to the prelayout directory:
-```
-$cd avsdspamp_3v3_sky130/Prelayout/simulations
-$ngspice spamp.cir
-```
-Uncomment whichever analysis required.
 
-## To execute postlayout simulations
-Change to the postlayout directory:
-```
-$cd avsdspamp_3v3_sky130/Post_Layout_Simulations/
-$ngspice spamp.cir
-```
-Uncomment whichever analysis required.
+
 # Differences between Prelayout and Postlayout and Why?
 1. The change in amplitude is due to the extra capacitances, resistances, etc added due to wire, etc.
 2. The change in frequency response is due to the capacitances due to substrate, wire, etc.
