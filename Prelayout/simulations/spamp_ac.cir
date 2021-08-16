@@ -1,6 +1,6 @@
 * c:\users\sumanto\esim-workspace\spamp\spamp.cir
 * RUN USING NGSPICE 34
-.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.lib "../../sky130_fd_pr/models/sky130.lib.spice" tt
 xm2 Vc net-_cds1-pad1_ net-_c2-pad1_ net-_c2-pad1_ sky130_fd_pr__nfet_01v8  W=100 L=100;
 xm1 net-_cds1-pad1_ vin net-_cds1-pad2_ net-_cds1-pad2_ sky130_fd_pr__pfet_01v8  W=100 L=100; 
 r4  net-_cds1-pad2_ Vc 6.7meg;
