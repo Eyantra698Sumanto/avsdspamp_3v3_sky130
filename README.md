@@ -47,7 +47,7 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 ![image](https://user-images.githubusercontent.com/58599984/129461713-bb5363ce-ae54-424c-925a-35917d350eec.png)
 # Cloning the Project
 
-Clone this repository using the commands:
+Clone this repository using the following commands:
 ```
 $ sudo apt install -y git
 $ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
