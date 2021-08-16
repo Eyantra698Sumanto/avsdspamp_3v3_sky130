@@ -1,0 +1,33 @@
+* SPICE3 file created from spamp.ext - technology: sky130A
+* RUN USING NGSPICE 35
+.lib "sky130_fd_pr/models/sky130.lib.spice" tt
+.option scale=10000u
+
+X0 vout vdd SUB sky130_fd_pr__res_xhigh_po w=35 l=4812
+X1 vout a_n1344_n115# gnd SUB sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=100 l=100
+X2 a_73_n97# vin a_n1344_n115# vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=100 l=100
+X3 vin gnd SUB sky130_fd_pr__res_xhigh_po w=35 l=4886
+X4 vin vdd SUB sky130_fd_pr__res_xhigh_po w=35 l=5098
+X5 a_73_n97# vout SUB sky130_fd_pr__res_xhigh_po w=35 l=4858
+C0 a_73_n97# SUB 2.94fF
+C1 vin SUB 10.46fF
+C2 a_n1344_n115# SUB 2.76fF
+C3 vout SUB 16.96fF
+C4 gnd SUB 19.82fF
+C5 vdd SUB 90.07fF
+c6 a_73_n97# vin 0.1u
+c7 vin a_n1344_n115# 0.1u
+c8 a_73_n97#  a_n1344_n115# 0.1u
+c9 out Vout 100u
+R1 out 0 100Meg
+v2 vdd gnd  dc 1.8; 				Supply for Transient, AC analysis
+v1  vin gnd sine(0 10m 100 0 0);	for Transient analysis
+.tran 10e-06 100e-03 0e-03;			for Transient analysis, supply variation analysis
+*.temp 50;
+.control;
+run;
+print allv > plot_data_v.txt;
+print alli > plot_data_i.txt;
+plot v(out) v(vin);					Transient Analysis
+.endc
+.end
