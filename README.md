@@ -47,7 +47,13 @@ This project focuses on design of a Sziklai Pair Amplifier using Google Skywater
 ![image](https://user-images.githubusercontent.com/58599984/129461331-68a6f874-a4e8-4cdd-95be-a9c0a43c6c28.png)
 # Block Diagram
 ![image](https://user-images.githubusercontent.com/58599984/129461713-bb5363ce-ae54-424c-925a-35917d350eec.png)
+# Cloning the Project
 
+Clone this repository using the commands:
+```
+$ sudo apt install -y git
+$ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
+```
 # Installation Instructions
 
 ## eSim Installation
@@ -91,12 +97,7 @@ Add the sky130 devices and the libraries in .cir.out file
 
 ## Simulations in Ngspice
 Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
-#### Executing the Simulations
- Clone this repository using the commands:
-```
-$ sudo apt install -y git
-$ git clone https://github.com/Eyantra698Sumanto/avsdspamp_3v3_sky130
-```
+
 #### Output Vs. Input Plot
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
@@ -142,9 +143,6 @@ The spice code will get generated.
 
 # Post Layout Simulation
 Save the spice code as .cir file and add the simulation parameters and sky130 libraries.</br>
-Run the following command:
-
-![image](https://user-images.githubusercontent.com/58599984/129340189-c6730900-00c4-4efb-a987-c0902d854456.png)
 
 The simulation waveforms are as follows:
 ## Output Vs. Input
