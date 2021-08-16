@@ -182,7 +182,7 @@ $ngspice spamp_current.cir
 # Differences between Prelayout and Postlayout and Why?
 1. There is a fall in the gain and changes in other plots as well of postlayout simulation due to various reasons like very high resistances in order of MegaOhms and GigaOhms is difficult to achieve as the length of the resistor is very high for these ranges.
 2. There is a change in frequency response  as high value of capacitance of order of micro and milli Farad is difficult to achieve as the size increases. There are various other reasons like substrate capacitance and various other stray capacitances.
-3. Also at high values of resistors and capacitors, accurately calculating the sizes becomes an important factor. Slight variation in calculation results in errors.
+3. Also at high values of resistors and capacitors, accurately calculating the sizes becomes an important factor. Slight variation in calculation results deviation from ther prelayout simulation.
 
 # Future Scope
 More accurate responses can be achieved if the above drawbacks can be considered. Any other material for the layout of resistors and capacitors can also be used for better results.
