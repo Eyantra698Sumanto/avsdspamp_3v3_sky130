@@ -94,7 +94,7 @@ https://static.fossee.in/esim/manuals/eSim_Manual_2020_August.pdf
 Add the sky130 devices and the libraries in .cir.out file
 
 ## Simulations in Ngspice
-Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
+Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html</br>
 __Use Ngspice 34__
 #### Output Vs. Input Plot
 Run the following commands in the terminal(Use NGSPICE 34):
@@ -146,7 +146,7 @@ The spice code will get generated.
 
 # Post Layout Simulation
 Save the spice code as .cir file and add the simulation parameters and sky130 libraries.</br>
-__Use NgSpice 35__
+__Use NgSpice 35__</br>
 The simulation waveforms are as follows:
 ## Output Vs. Input
 Run the following commands in the terminal(Use NGSPICE 35):
