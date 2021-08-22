@@ -95,30 +95,30 @@ Add the sky130 devices and the libraries in .cir.out file
 
 ## Simulations in Ngspice
 Check here how to run Ngspice: http://ngspice.sourceforge.net/ngspice-tutorial.html
-
+__Use Ngspice 34__
 #### Output Vs. Input Plot
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 34):
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_tran.cir
 ```
 ![image](https://user-images.githubusercontent.com/58599984/129341595-c651022b-e348-40f2-9c79-d18f0bd81222.png)
 #### Frequency Response Plot
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 34):
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_ac.cir
 ```
 ![image](https://user-images.githubusercontent.com/58599984/129341478-4a592d15-2104-48dc-961c-9352e0b7fd01.png)
 #### Output Vs.Supply Plot
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 34):
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_supplyana.cir
 ```
 ![image](https://user-images.githubusercontent.com/58599984/129341687-98aeffb1-518b-42dd-b6ce-bce8a91a4590.png)
 #### Current Gain Vs. Output
-Run the following commands in the terminal:
+Run the following commands in the terminal(USe NGSPICE 34):
 ```
 $cd avsdspamp_3v3_sky130/Prelayout/simulations
 $ngspice spamp_current.cir
@@ -146,31 +146,31 @@ The spice code will get generated.
 
 # Post Layout Simulation
 Save the spice code as .cir file and add the simulation parameters and sky130 libraries.</br>
-
+__Use NgSpice 35__
 The simulation waveforms are as follows:
 ## Output Vs. Input
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 35):
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_tran.cir
 ```
 ![Input-Output_plot](https://user-images.githubusercontent.com/58599984/129573537-8856f582-f0d5-4b7b-8e0b-c4343ee0f1a3.PNG)
 ## Frequency Response Plot
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 35):
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_ac.cir
 ```
 ![frequency response](https://user-images.githubusercontent.com/58599984/129573572-36b7d75c-da73-4a3a-b7ba-f1e22e4d8858.PNG)
 ## Output Vs.Supply Plot
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 35):
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_supplyana.cir
 ```
 ![output vs supply](https://user-images.githubusercontent.com/58599984/129573604-6fd3df2b-f6e0-431b-8828-87e0958f5e75.PNG)
 ## Current Gain Vs. Output Plot
-Run the following commands in the terminal:
+Run the following commands in the terminal(Use NGSPICE 35):
 ```
 $cd avsdspamp_3v3_sky130/Post_Layout_Simulations
 $ngspice spamp_current.cir
