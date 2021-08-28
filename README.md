@@ -191,10 +191,10 @@ More accurate responses can be achieved if the above drawbacks can be considered
 Sumanto Kar</br>
 Contact: jeetsumanto123@gmail.com</br>
 
-Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
 
 # Acknowledgments
-Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalghosh@gmail.com
+Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
 
 
 
