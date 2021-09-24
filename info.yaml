@@ -16,4 +16,4 @@ project:
   top_level_netlist: "Post_Layout_Simulations/spamp_tran.spice"
   user_level_netlist: "Post_Layout_Simulations/spamp_tran.spice"
   version: "1.00"
-  cover_image: "Postlayout/Pictures/10bitdac layout desing.PNG "
+  cover_image: "Schematics/eSim_Schematic.png "
